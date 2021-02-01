@@ -119,7 +119,7 @@ class ViewController: NSViewController {
         self.localizedTextViews = [self.firstTextView,self.secondTextView,self.thirdTextView,self.forthTextView,self.fifthTextView,self.sixthTextView,self.seventhTextView];
         self.boxs = [self.firstBox,self.secondBox,self.thirdBox,self.forthBox,self.fifthBox,self.sixthBox,self.seventhBox];
         boxItems = ["English","Chinese Traditional","Chinese Simple","Janpanese",
-                        "French","Korea","German","Spanish","Portugal","Runssia","Thai(泰语)","Arab(阿拉伯语)","Italy(意大利语)"]
+                        "French","Korea","German","Spanish","Portugal","Runssia","Arab(阿拉伯语)","Italy(意大利语)","Thai(泰语)"]
         for (index, box) in self.boxs.enumerated() {
             box.addItems(withObjectValues: boxItems)
             box.selectItem(at: index)
